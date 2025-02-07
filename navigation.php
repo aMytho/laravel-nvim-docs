@@ -20,4 +20,5 @@ return [
         ],
     ],
     'User Commands' => 'docs/user-commands',
+    'Pickers' => 'docs/pickers',
 ];
