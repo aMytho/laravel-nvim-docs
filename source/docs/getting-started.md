@@ -11,10 +11,12 @@ The goal of the plugin is to offer a solution out of the box, just install the p
 
 ## Install {#getting-started-install}
 
-You need to just add it to you plugin manager
+To install this plugin, add it to your Nvim package manager. 
 
 ### Lazy nvim
-Just in case you need a suggestion you can use [lazy](https://github.com/folke/lazy.nvim)
+
+[Lazy.nvim](https://github.com/folke/lazy.nvim) example
+
 ```lua
 {
   "adalessa/laravel.nvim",
@@ -92,7 +94,7 @@ opts = {
 One of the goals of the plugin is to be a good experience and extensible as laravel is as a php framework.
 
 You can create your own provider as a lua file.
-for example here is the main provider for the plugin: 
+For example, here is the main provider for the plugin: 
 ```lua
 ---@class LaravelProvider
 local laravel_provider = {}
@@ -136,7 +138,7 @@ end
 return laravel_provider
 ```
 
-You only need to add them to the `user_providers` config and they will be loaded.
+Simply add them to the `user_providers` config and they will be loaded.
 
 register as laravel it's a place where you can define elements for the container system, even you
 can override current implementation given that the ones defined by the plugin are only conditional.
@@ -148,7 +150,7 @@ can override current implementation given that the ones defined by the plugin ar
 Inspire by Laravel the plugin has an `app` helper that allows you to quickly use it in keymaps, plugins, etc.
 Having access and control of it at your disposal.
 
-To access it just require laravel and take `app` property. it's the recomended way of using it.
+To access it, just require laravel and take `app` property. This is the recomended way of using it.
 ```lua
 local app = require("laravel").app
 
@@ -161,8 +163,8 @@ end)
 ### Promises {#getting-started-promises}
 
 Something to note from the previous example is the approach that I took using promises.
-This is due to the fact that the calls needed to be async
-Promises allow for more strait-forward expression. more can be found [here](https://github.com/kevinhwang91/promise-async)
+This is due to the fact that the calls needed to be async.
+Promises allow for more straight-forward expression. More can be found [here](https://github.com/kevinhwang91/promise-async)
 
-I know it takes some time to grasp, but it is a proven approach.
+This may take some time to grasp, but it is a proven approach.
 Examples of it can be found are all around the plugin code.

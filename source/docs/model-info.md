@@ -7,9 +7,7 @@ section: content
 
 # Model Info {#model-info}
 
-Given how Eloquent works sometimes it is not clear which fields are available on the model.
-you need to rely on your memory, checking migrations, opening the table, etc...
-To solve this issue the plugin uses `virtual_text` to show the info on it.
+Laravel Nvim can display the columns of a model with virtual text. This saves you the hassle of looking at a migration file or opening the database to see what fields exist for a DB entity. The plugin also lists constraints, the database used, and the table name.
 
 ![model_info](/assets/img/model_info.png)
 
@@ -28,7 +26,7 @@ You can disable it by changing the configuration:
 
 # Customization {#model-info-customization}
 
-To customize how it is displayed use the container approach:
+Similar to the route info, the model info can be customized.
 
 ```lua
 local app = require("laravel").app
@@ -62,5 +60,5 @@ end
 app:instance("model_info_view", model_info_view)
 ```
 
-The plugin gets this information from the artisan command `model:show --json` you can explore it to see what variables
-are at your disposal.
+The plugin gets model information from the artisan command `model:show --json`.
+You can explore it to see what variables are at your disposal.
