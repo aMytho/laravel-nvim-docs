@@ -28,7 +28,7 @@
 
             <h3 id="intro-laravel" class="text-2xl text-blue-900 mb-0">Dedicated Pickers <br>Integration with Telescope</h3>
 
-            <p>Telescope integration for running commands, listing routes, and other integrations.</p>
+            <p>Telescope integration for running commands, listing routes, and other features.</p>
         </div>
 
         <div class="mb-8 mx-3 px-2 md:w-1/3">
@@ -36,7 +36,7 @@
 
             <h3 id="intro-markdown" class="text-2xl text-blue-900 mb-0">Artisan Integration</h3>
 
-            <p>Run your Laravel Artisan commands directly. This plugin provides a listing of all commands. Search for the command, view the params, and execute it!</p>
+            <p>Run your Laravel Artisan commands inside Neovim. This plugin provides a listing of all commands. Search for the command, view the params, and execute it!</p>
         </div>
 
         <div class="mx-3 px-2 md:w-1/3">
@@ -44,7 +44,7 @@
 
             <h3 id="intro-mix" class="text-2xl text-blue-900 mb-0">Environment Detection <br>run as your application does it</h3>
 
-            <p>There are many ways to run your application (native, Docker, Sail, etc.). The plugin allows to run the commands in the same way.</p>
+            <p>There are many ways to run your application (native, Docker, Sail, etc.). The plugin allows you to run the commands in the same way.</p>
         </div>
     </div>
 </section>

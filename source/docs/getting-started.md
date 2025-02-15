@@ -11,11 +11,11 @@ The goal of the plugin is to offer a solution out of the box, just install the p
 
 ## Install {#getting-started-install}
 
-To install this plugin, add it to your Nvim package manager. 
+To install this plugin, add it to your Neovim package manager. 
 
 ### Lazy nvim
 
-[Lazy.nvim](https://github.com/folke/lazy.nvim) example
+Here is an example with the [Lazy.nvim](https://github.com/folke/lazy.nvim) package manager.
 
 ```lua
 {

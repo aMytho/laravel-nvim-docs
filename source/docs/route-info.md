@@ -81,8 +81,7 @@ This verions looks like
 ![route_info_custom](/assets/img/route_info_custom.png)
 
 
-The plugin gets the route information from the artisan command `route:list --json`. You can explore it to see what variables
-are available.
+The plugin gets the route information from the artisan command `route:list --json`. You can explore it to see what variables are available.
 
 # Missing Method {#route-info-missing-method}
 

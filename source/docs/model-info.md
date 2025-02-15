@@ -7,7 +7,7 @@ section: content
 
 # Model Info {#model-info}
 
-Laravel Nvim can display the columns of a model with virtual text. This saves you the hassle of looking at a migration file or opening the database to see what fields exist for a DB entity. The plugin also lists constraints, the database used, and the table name.
+Laravel Nvim can display the database columns of a model with virtual text. This saves you the hassle of looking at a migration file or opening the database to see what fields exist for a DB entity. The plugin also lists constraints, the database used, and the table name.
 
 ![model_info](/assets/img/model_info.png)
 
