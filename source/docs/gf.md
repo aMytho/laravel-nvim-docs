@@ -8,7 +8,7 @@ section: content
 # GF {#gf}
 
 gf is one of the most common keymaps for vim, with it you can go to the file under the cursor.
-for laravel what I did was to re-create similar were you can go to views, configs, env and routes.
+This plugin can use it to go to Laravel views, configs, envs, and routes.
 
 You only need to add a keymap to your config
 
