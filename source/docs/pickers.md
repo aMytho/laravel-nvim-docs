@@ -7,13 +7,15 @@ section: content
 
 # Pickers {#pickers}
 
-Any picker is a core part of the neovim configuration and this plugin don't forget about it.
+A picker is a core part of neovim configuration. This plugin makes heavy use of them to search through commands, resources, routes, and more.
+
+To use a picker with Laravel Nvim, install one of the below providers.
 
 ## Supported Providers
-- Telescope
-- Snacks
-- FzfLua
-- Select
+- [Telescope](https://github.com/nvim-telescope/telescope.nvim)
+- [Snacks](https://github.com/folke/snacks.nvim)
+- [FzfLua](https://github.com/ibhagwan/fzf-lua)
+- [Select](https://github.com/nvim-telescope/telescope-ui-select.nvim)
 
 ## Available Pickers
 - artisan
@@ -26,13 +28,15 @@ Any picker is a core part of the neovim configuration and this plugin don't forg
 - routes
 
 ## Config
-To enable the pickers set the config
+To enable the picker, set the picker to enabled and choose one of the below options.
 ```lua
 opts = {
-    pickers = {
-        enable = true,
-        provider = "telescope|snacks|fzf-lua|ui.select",
-    }
+    features = {
+        pickers = {
+            enable = true,
+            provider = "telescope|snacks|fzf-lua|ui.select", -- Choose ONE of these.
+        }
+    },
 }
 ```
 
